@@ -1,36 +1,72 @@
 /*gerenal rules*/
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.d-flex{
+
+body {
+    font-family: sans-serif;
+}
+
+.d-flex {
     display: flex;
     justify-content: space-between;
-    
+
 }
-.container{
+
+.container {
     margin: auto;
     width: 70%;
 }
+
 /*debug*/
-.debug *{
+.debug * {
     border: 1px dashed;
 }
-.debug .container{
+
+.debug .container {
     background-color: aqua;
 }
-.debug header{
+
+.debug header {
     height: 100px;
     background-color: orange;
 }
-.debug .card{
+
+.debug .card {
     height: 400px;
     width: 30%;
     background-color: aliceblue;
 }
-.debug footer{
+
+.debug footer {
     height: 100px;
     background-color: black;
-    
+
+}
+
+/*header*/
+header {
+    background-color: orange;
+    padding: 10px;
+
+    a {
+        color: white;
+        text-decoration: none;
+        padding-left: 3px;
+        font-size: 12px;
+    }
+
+    .align-items {
+        align-items: center;
+    }
+
+    .icon {
+        color: white;
+    }
+}
+
+.logo>img {
+    width: 100px;
 }
