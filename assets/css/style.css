@@ -51,6 +51,7 @@ body {
 header {
     background-color: orange;
     padding: 20px;
+    margin-bottom: 25px;
 
     a {
         color: white;
@@ -74,7 +75,7 @@ header {
 /*main*/
 .card {
     width: 30%;
-    padding: 10px;
+    padding: 15px;
 
     img {
         max-width: 100%;
@@ -171,6 +172,7 @@ strong {
 footer {
     background-color: black;
     padding: 20px;
+    margin-top: 20px;
 
     h4,
     h5 {
