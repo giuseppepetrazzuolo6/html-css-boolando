@@ -4,3 +4,33 @@
     padding: 0;
     box-sizing: border-box;
 }
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.container{
+    margin: auto;
+    width: 70%;
+}
+/*debug*/
+.debug *{
+    border: 1px dashed;
+}
+.debug .container{
+    background-color: aqua;
+}
+.debug header{
+    height: 100px;
+    background-color: orange;
+}
+.debug .card{
+    height: 400px;
+    width: 30%;
+    background-color: aliceblue;
+}
+.debug footer{
+    height: 100px;
+    background-color: black;
+    
+}
